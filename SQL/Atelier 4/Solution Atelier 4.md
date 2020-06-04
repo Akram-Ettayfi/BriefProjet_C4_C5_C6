@@ -50,5 +50,5 @@ SELECT * FROM MovieTheaters RIGHT JOIN Movies ON MovieTheaters.Movie = Movies.Co
 . UPDATE Movies SET Rating='G' WHERE Rating IS NULL; 
 10/ 
 . DELETE FROM MovieTheaters WHERE Movie IN
-   (SELECT Code FROM Movies WHERE Rating = 'NC-17');
+   (SELECT Code FROM Movies WHERE Rating = 'NC-17')
  ```
