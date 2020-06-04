@@ -95,5 +95,5 @@ DELETE FROM employees WHERE departement IN (SELECT Code FROM departments WHERE B
 ```
 ## 2.21 Supprimer du tableau tous les employés.
 ```sql
-delete from employees
+delete from employees;
 ```
