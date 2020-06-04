@@ -66,5 +66,5 @@
 __
 ## question 10 
 ```sql
-. DELETE FROM Provides WHERE Provider = 'RBT'; 
+. DELETE FROM Provides WHERE Provider = 'RBT'
  ```
